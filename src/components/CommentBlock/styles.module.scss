@@ -1,0 +1,52 @@
+.comment-block {
+  display: flex;
+  gap: 20px;
+
+  & .text {
+    color: #FFF;
+  }
+
+  & .text-light {
+    color: #8297AB;
+  }
+
+    & .img {
+        width: 68px;
+        height: 68px;
+        flex-shrink: 0;
+        border-radius: 50%;
+    }
+
+    & .content {
+      padding-top: 12.5px;
+      width: 100%;
+      
+      &-header {
+        display: flex;
+        justify-content: space-between;
+
+        & .header-text {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
+
+        & .like-block {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+
+      &-body {
+        margin-top: 12.5px;
+      }
+    }
+}
+
+.children {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
